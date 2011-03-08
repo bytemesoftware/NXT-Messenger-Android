@@ -6,7 +6,7 @@ import android.util.Log;
 /**
  * The MIT License
  *
- * Copyright (c) 2011 Daniel Ward admin(at)bytemesoftware.com
+ * Copyright (c) 2011 Daniel Ward apps(at)bytemesoftware.com
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
