@@ -6,7 +6,7 @@ import android.util.Log;
 /**
  * The MIT License
  *
- * Copyright (c) 2011 Daniel Ward dwa012(at)gmail.com
+ * Copyright (c) 2011 Daniel Ward admin(at)bytemesoftware.com
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -35,7 +35,7 @@ import android.util.Log;
  *  
  * @author Daniel Ward
  * @version 1.00
- * @date Feb 16 2011
+ * @date March 7 2011
  */
 
 public class SendMessage {
