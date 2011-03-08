@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:myapp="http://schemas.android.com/apk/res/com.bytemesoftware.nxtmessenger"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent">    
+ 
+    <com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC"
+		/>
+
     <TextView
         android:id="@+id/label"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-       	android:layout_marginTop="20dip"
+       	android:layout_marginTop="45dip"
         android:text="@string/main_message"/>
     <EditText
         android:id="@+id/entry"
