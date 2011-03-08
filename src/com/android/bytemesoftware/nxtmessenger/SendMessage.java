@@ -16,7 +16,7 @@ import android.util.Log;
  * furnished to do so, subject to the following conditions:
  *
  * No person, persons, or entity is allowed to sell or make any profit off this
- * software or variants of this software.
+ * software or variants of this software other than the author.
  * 
  * The above copyright notice and this permission notice shall be included in
  * all copies or substantial portions of the Software.
