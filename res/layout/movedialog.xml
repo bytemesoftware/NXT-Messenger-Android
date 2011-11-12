@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/leftMotorLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Left Motor Port" android:layout_centerHorizontal="true" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/leftMotorRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/leftMotorLabel" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@id/leftMotorRadio1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="A" />
+        <RadioButton android:id="@id/leftMotorRadio2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" />
+        <RadioButton android:id="@id/leftMotorRadio3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C" />
+    </RadioGroup>
+    <TextView android:gravity="center_horizontal" android:id="@id/rightMotorLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Right Motor Port" android:layout_below="@id/leftMotorRadioGroup" android:layout_centerHorizontal="true" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rightMotorRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/rightMotorLabel" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@id/rightMotorRadio1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="A" />
+        <RadioButton android:id="@id/rightMotorRadio2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B" />
+        <RadioButton android:id="@id/rightMotorRadio3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C" />
+    </RadioGroup>
+    <Button android:orientation="horizontal" android:id="@id/motorDialogButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Ok" android:layout_below="@id/rightMotorRadioGroup" />
+</RelativeLayout>

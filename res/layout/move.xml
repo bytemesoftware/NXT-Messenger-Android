@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widget0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/flipButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Flip Direction" android:layout_alignParentRight="true" />
+    <Button android:id="@id/moveStopButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All Stop" android:layout_above="@id/moveImage" android:layout_alignParentLeft="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/moveImage" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/movebackgroundimage" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_below="@id/flipButton" android:layout_centerInParent="true" />
+</RelativeLayout>

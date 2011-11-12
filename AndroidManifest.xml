@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.bytemesoftware.nxtmessenger"
-      android:versionCode="1"
-      android:versionName="1.0" 
-      android:installLocation="auto">
+      android:installLocation="auto" package="com.bytemesoftware.nxtmessenger" android:versionCode="3" android:versionName="1.2">
+	
 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 	<uses-permission android:name="android.permission.BLUETOOTH" /> 
-	<!-- AdMob SDK requires Internet permission -->
-	<uses-permission android:name="android.permission.INTERNET" />
-	
+	<uses-permission android:name="android.permission.GET_TASKS" /> 
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
 	      
     <application android:icon="@drawable/nxtlogo" android:label="@string/app_name" android:debuggable="true">
         <activity android:name=".Main"
@@ -18,33 +17,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        	<activity android:name=".DeviceListActivity"
-                  android:label="@string/select_device"
-                  android:theme="@android:style/Theme.Dialog"
-                  android:configChanges="orientation|keyboardHidden" />
-            <activity android:name=".SendActivity"
-                  android:label="Send"
-                  android:theme="@android:style/Theme.Dialog"
-                  android:configChanges="orientation|keyboardHidden" />
-         <meta-data android:value="a14d767a14ef873" android:name="ADMOB_PUBLISHER_ID" />
-         <activity android:name="com.admob.android.ads.AdMobActivity"
-					android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-					android:configChanges="orientation|keyboard|keyboardHidden" />
-			<!-- Track Market installs -->
-			<receiver android:name="com.admob.android.ads.analytics.InstallReceiver"
-			android:exported="true">
-			<intent-filter>
-			<action android:name="com.android.vending.INSTALL_REFERRER" />
-			</intent-filter>
-			<meta-data android:value="true" android:name="ADMOB_ALLOW_LOCATION_FOR_ADS"
-/>
-			
-</receiver>
+        
+       	<activity android:name=".DeviceListActivity"
+                 android:label="@string/select_device"
+                 android:theme="@android:style/Theme.Dialog"
+                 android:configChanges="orientation|keyboardHidden" />
 					
+         <meta-data android:name="com.mobclix.APPLICATION_ID" 
+         			android:value="F355BC37-B71F-4E02-BB89-8AC794B49DE5"/>
+
+		<activity android:name="com.com.mobclix.android.sdk.MobclixBrowserActivity"		  
+				android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
          
 
     </application>
 
 
-<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"></uses-sdk>
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"></uses-sdk>
 </manifest> 

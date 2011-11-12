@@ -2,33 +2,20 @@
 <resources>
     <string name="hello">Hello World, Messenger!</string>
     <string name="app_name">NXT</string>
-	<string name="main_message">Message</string>
-	<string name="send_button">Send</string>
-	<string name="mailbox">Mailbox</string>
-	<string name="new_device">New Device</string>
-	<string name="title_paired_devices">Paired Devices</string>
-	<string name="title_other_devices">Other Devices</string>
-	<string name="button_scan">Scan</string>
-	<string name="none_paired">None Paired</string>
-	<string name="scanning">Scanning</string>
-	<string name="select_device">Select Device</string>
-	<string name="none_found">None Found</string>
-	<string name="device_name"></string>
-	<string name="device_address"></string>
-	<string name="spinner_prompt">MailBox</string>
-	<string-array name="spinner_array">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-    </string-array>
-
-
-<string name="device_label">Using Device:</string>
+    <string name="main_message">Message</string>
+    <string name="send_button">Send</string>
+    <string name="mailbox">Mailbox</string>
+    <string name="new_device">New Device</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Devices</string>
+    <string name="button_scan">Scan</string>
+    <string name="none_paired">None Paired</string>
+    <string name="scanning">Scanning</string>
+    <string name="select_device">Select Device</string>
+    <string name="none_found">None Found</string>
+    <string name="device_name" />
+    <string name="device_address" />
+    <string name="spinner_prompt">MailBox</string>
+    <string name="device_label">Using Device:</string>
+    <string name="motor_ports">Motor Ports</string>
 </resources>

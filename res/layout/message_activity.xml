@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:myapp="http://schemas.android.com/apk/res/com.bytemesoftware.nxtmessengeradfree">
+    <TextView android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:text="@string/main_message" />
+    <EditText android:id="@id/entry" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:capitalize="none" android:layout_below="@id/label" android:inputType="textShortMessage" />
+    <Button android:id="@id/send" android:layout_width="100.0px" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:text="@string/send_button" android:layout_below="@id/entry" android:layout_alignParentRight="true" />
+    <Spinner android:id="@id/mailbox_select" android:layout_width="wrap_content" android:layout_height="40.0dip" android:prompt="@string/spinner_prompt" android:layout_toLeftOf="@id/send" android:layout_below="@id/entry" />
+    <TextView android:id="@id/mailbox_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mailbox" android:layout_toLeftOf="@id/mailbox_select" android:layout_below="@id/entry" />
+    <TextView android:id="@id/device_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/device_label" android:layout_below="@id/send" />
+    <TextView android:id="@id/device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/device_name" android:layout_below="@id/device_label" />
+</RelativeLayout>
